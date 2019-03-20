@@ -43,7 +43,50 @@ Nous auront en jeu plusieurs types de personnes : Le tricheur, le radin, le copi
 •	L'**aléatoire** : Il commence par coopérer puis triche ou coopère aléatoirement
 Ce que nous allons rajouter du jeu de base sera une dyamique d'échange entre les contients Chaque continent contiendra des pourcentages de types de joueurs spécifiques et un nombre de joueurs différent. Les flux de joueurs sera le plus réalise possible, basé sur des pourcentages de migrations réels. Nous ferons fluctuer les gains et pertes entre les parties, l'argent de départ, ainsi que le nombre de manche, le pourcentage de population que l'on va supprimer et que l'on va dupliquer. Pour compenser la différence d'argent entre un continent avec beaucoup de personnes (et donc des joueurs avec beaucoup d'argent vu qu'ils ont fait beaucoup de parties) et un continent avec peu de personnes (donc des joueurs avec moins d'argent), on pourrait dupliquer les personnes ayant le plus d'argent moyen par partie, et non les plus riches.
 
+## Le 13/03: compte rendu première séance
 
+Notre but va être de modéliser l’évolution du nombre de joueurs de chaque catégorie au cours du temps en fonction de 
+différents critères. Pour s'eloigner du jeu de Nick Case nous allons creer de nouveaux types de joueurs et surtout nous 
+allons modeliser les échanges entre différents continents a partir des probabilités les plus réalistes possible. 
+A l'aide du planisphère predefni en python nous créer une interface visuelle permettant de representer les échanges au cours du temps
+
+Nous avons commencé la programmation en s'attaquant à:
+- Le déroulement d'une partie entre deux joueurs
+- Le déroulement d'un échange entre tous les joueurs d'un continent 
+- La création d'un continent contenant les types souhaités
+Nous avons effectué des recherches sur le taux de migration mondiale entre les continents pour tenter d'obtenir un modèle le plus réaliste possible.
+Nous avons également cherché le nombre d'habitants par continents.
+
+## Le 20/03: compte rendu deuxieme séance
+
+Objectif de la séance: 
+- Terminer les recherches pour les pourcentages de migrations entre pays
+- Creer les continents grace aux informations collectées
+- Mise a jour des évolutions de population: les 10% ayant le moins d'argent laissent place aux 10% les plus riches qui vont 
+se dupliquer
+- Mise en place du système d'échange entre les continents et stabilisation de la population apres les échanges
+- Commencer a chercher comment fonctionne la carte prédéfinie en python
+
+Compte rendu :
+Durant cette séance nous avons réaisé le code permettant de mettre à jour les populations en supprimant les 10% les plus pauvre et 
+copiant les 10% les plus riches en gardant le pourcentage modifiable. De plus nous avons créer les continents en fonctions de la populations réelle de la terre
+avec un ratio de 1 pour 10 000 000. Nous avons également réfléchis et commencer la fonction qui va nous permettre de faire les echanges entre les continents
+
+
+#essai carte
+import matplotlib.pilot as plt
+from mpl_toolkits.basemap import Basemap
+from geopy.geocoders import Nominatim
+from matplotlib.patches import Polygon
+
+c = Basemap(resolution='1',
+            projection = 'merc',
+            lat_0=-74.05, long_0=-170.05, llcrnrlon=-168.3 , llcrnrlat=-63.9 , urcrnrlon=-171.8 ,
+            rrcrnrlat= 84.2)
+m.drawmapboundary(fill_color='46bcec')
+m.fillcontinents(color='f2f2f2')
+m.drawcoastlines()
+m.drawcountries()
 
 
 [Link](url) and ![Image](src)
