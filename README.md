@@ -33,7 +33,7 @@ Nous auront en jeu plusieurs types de personnes : Le tricheur, le radin, le copi
 
 Ce que nous allons rajouter du jeu de base sera une dyamique d'échange entre les contients Chaque continent contiendra des pourcentages de types de joueurs spécifiques et un nombre de joueurs différent. Les flux de joueurs sera le plus réalise possible, basé sur des pourcentages de migrations réels. Nous ferons fluctuer les gains et pertes entre les parties, l'argent de départ, ainsi que le nombre de manche, le pourcentage de population que l'on va supprimer et que l'on va dupliquer. 
 
-Pour compenser la différence d'argent entre un continent avec beaucoup de personnes (et donc des joueurs avec beaucoup d'argent vu qu'ils ont fait beaucoup de parties) et un continent avec peu de personnes (donc des joueurs avec moins d'argent), on pourrait dupliquer les personnes ayant le plus d'argent moyen par partie, et non les plus riches.
+Pour compenser la différence d'argent entre un continent avec beaucoup de personnes (et donc des joueurs avec beaucoup d'argent vu qu'ils ont fait beaucoup de partiesClément ) et un continent avec peu de personnes (donc des joueurs avec moins d'argent), on pourrait dupliquer les personnes ayant le plus d'argent moyen par partie, et non les plus riches.
 
 ## Le 13/03: compte rendu première séance
 
@@ -73,3 +73,13 @@ se dupliquer
 Compte rendu :
 
 Durant cette séance nous avons réalisé le code permettant de mettre à jour les populations en supprimant les 10% les plus pauvre et en copiant les 10% les plus riches en gardant le pourcentage modifiable. De plus nous avons créer les continents en fonctions de la populations réelle de la terre avec un ratio de 1 pour 10 000 000. Nous avons également réfléchis et commencer la fonction qui va nous permettre de faire les echanges entre les continents.
+
+## Le 27/03: compte rendu troisième séance
+
+- Nous avons régler le problème concernant les échanges, pour rappel les gains en Asie etaient beaucoup plus faible qu'en Océanie par exemple du fait du nombre de parties beaucoup plus élevées. Nous avons résolu le problème en divisant le nombre de gains par le nombre de parties jouées par la personne.
+
+- Nous avons créer les graphismes de nos différents types de joueurs puis nous les avons intégré a notres carte. Basemap nous semblant trop compliqué nous avons importé une image de planisphère via pygame.
+
+- Nous avons posté sur github un shéma explicatif représentant un tour complet dans un continent.
+
+- Nous avons continué a améliorer notre interface graphique pour qu'elle soit le plus compréhensible et esthétique possible.
