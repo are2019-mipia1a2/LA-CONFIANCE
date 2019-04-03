@@ -87,6 +87,7 @@ Durant cette séance nous avons réalisé le code permettant de mettre à jour l
 
 ## Le 03/04: compte rendu quatrième séance
 
-- Nous avons continué de coder afin de trier par type l'affichage des personnages et d'ajouter des boutons qui ajustent le nombre de tour, le pourcentage de disparition après chaque tour, les différentes valeurs de gain (deux joueurs jouent, un seul joue et les deux trichent) et le nombre de manche dans un tour.
+- Nous avons continué de coder afin de trier l'affichage par type de joueurs pour rendre notre interface plus lisible et plus facilement compréhensible. Nous avons continuer d'améliorer notre interface graphique
 
-- Conception de la page d'acceuil. 
+- Conception de la page d'acceuil:
+Nous avons creer une page d'acceuil où les joueurs pourront modifier le nombre de tours, le pourcentage de personne partant de chaque continent a la fin de chaque tour (et donc également celui arrivant par continent) et les différents gains selon si l'adversaire triche ou coopère. Nous avons creer des boutons permettant de modifier ces paramètres.
