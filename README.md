@@ -87,6 +87,6 @@ Durant cette séance nous avons réalisé le code permettant de mettre à jour l
 
 ## Le 03/04: compte rendu quatrième séance
 
--
+- Nous avons continué de coder afin de trier par type l'affichage des personnages et d'ajouter des boutons qui ajustent le nombre de tour, le pourcentage de disparition après chaque tour, les différentes valeurs de gain (deux joueurs jouent, un seul joue et les deux trichent) et le nombre de manche dans un tour.
 
--
+- Conception de la page d'acceuil. 
