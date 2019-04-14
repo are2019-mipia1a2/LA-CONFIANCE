@@ -32,16 +32,21 @@ of rounds per day, the bets played and the percentage of apparition and disparit
 
 
 Intro:
+
 Notre groupe est constitué de Léo Laval, Youssef Ayatillah, Clément Collange et Chloé Castera. Nous avons choisi de nous associer 
 dans le cadre de ce projet car nous nous connaissions bien et savions que nous pourrions travailler efficacement et dans la bonne
 humeur.
-La problématique de notre projet est: Quel état d'esprit faut-il adopter pour évoluer dans un monde réduis d'échanges ?
-Nous nous sommes inspirés du jeu de Nick Case "The evolution of trust" lui meme tiré des travaux sur l'évolution de la coopération 
-de Robert Axelrod. Nous voulions modéliser les évolutions de confiance mais sans plagier le jeu de Nick Case et nous voulions 
-que notre travail final soit esthétique et interactif .
-Pour cela nous avons choisi de représenter les évolutions entre différents continents selon un modèle que nous avons fixé.
-
-1. La théorie de la coopération
-2. La modélisation 
-3. Les graphismes
+Le thème de notre étude est l'évolution de la confiance avec pour problématique: "Quel état d'esprit faut-il adopter pour évoluer dans
+un monde rempli d'échanges ?". Notre travail se base sur le domaine mathématique de la théorie des jeux qui s'intéresse aux 
+interactions des choix d'individus qui sont conscients de l'existence de ces interactions. Cette théorie est énoncée pour la première 
+fois en 1838 par Antoine Augustin Cournot dans ses Recherches sur les principes mathématiques de la théorie des richesses. Elle va 
+alors évoluer et devenir un champs de recherche à part entière avec la publication "Theory of games and economic behavior" de John Von 
+Neumann et Oskar Morgenstern. La théorie va alors être développée au cours du temps et plusieurs économistes vont recevoir des prix 
+Nobel d'économie pour leur travail sur la théorie des jeux. Nous avons choisi de travailler sur cette théorie après avoir découvert le 
+jeu de Nick Case "The evolution of trust" lui meme basé sur le dilemme du prisonnier du mathématicien Albert Tucker.
+Nous nous sommes donc inspirés de son jeu pour tenter de créer notre propre modèle. Nous voulions modéliser les évolutions de 
+confiance mais sans plagier le jeu de Nick Case et nous voulions que notre travail final soit esthétique et interactif .
+Pour cela nous avons choisi de représenter les évolutions entre différents continents selon un modèle précis.
+Nos hypothèses initiales étaient que les types de joueurs ayant tendance a tricher allaient finir par prendre le dessus sur les autres 
+et que modifier les gains et le nombre de round par tours pouvait complètement changer la situation.
 
