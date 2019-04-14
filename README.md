@@ -6,7 +6,7 @@
 ### LAVAL Léo 
 ### AYATILLAH Youssef
 
-Nicky Case a créer un jeu basé sur une théorie permettant de montrer le phénomène de confiance au sein d’une population. C'est ce jeu que nous allons modéliser pour tenter de répondre à la problématique.
+Nicky Case a crée un jeu basé sur une théorie permettant de montrer le phénomène de confiance au sein d’une population. C'est ce jeu que nous allons modéliser pour tenter de répondre à la problématique.
 
 Pour le jeu, vous êtes face à une machine et jouer en même temps qu'une autre personne. Vous avez un choix à faire qui est de mettre une pièce ou non dans la machine. Si vous mettez une pièce l'adversaire en reçoit 3 et vice versa. Vous pouvez chacun choisir de coopérer (mettre une pièce) ou bien de tricher (ne pas en mettre). Par exemple si les deux joueurs trichent, il vont chacun perdre une pièce, on aura donc un score de 0-0.
 
